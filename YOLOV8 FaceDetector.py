@@ -5,8 +5,8 @@ import cv2
 
 
 
-video = r'C:\Users\Admin\Desktop\data\neutral/10.mp4'
-cap = cv2.VideoCapture(0)
+video = 'put the path to your video here'
+cap = cv2.VideoCapture(video)
 
 facemodel = YOLO('yolov8n-face.pt')
 
